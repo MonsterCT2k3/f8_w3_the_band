@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table witdth = "500" border="1" cellpadding="0" cellspacing="0">
+        <caption>Tieu de bang</caption>
+        <thead>
+            <tr>
+                <th>Cot1</th>
+                <th>Cot2</th>
+                <th>Cot3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Cot1</td>
+                <td>Cot2</td>
+                <td>Cot3</td>
+                <td>Cot4</td>
+                <td>Cot5</td>
+            </tr>
+            <tr>
+                <td>Cot2</td>
+                <td>Cot3</td>
+                <td>Cot4</td>
+                <td>Cot5</td>
+            </tr>
+            <tr>
+                <td>Cot1</td>
+                <td>Cot2</td>
+                <td>Cot3</td>
+                <td>Cot4</td>
+                <td>Cot5</td>
+            </tr>
+            <tr>
+                <td colspan="5">Cot5</td>
+                <td>Cot6</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="" method="post" enctype="multipart/form-data" id="formid">
+        Nhap username:
+        <input type="text" name="username" id="input_id" placeholder="Nhap user name" size="50">
+    </form>
+    <form action="" method="post" enctype="multipart/form-data" id="formid">
+        Nhap password:
+        <input type="password" name="password" id="password_id" placeholder="Nhap password" size="50">
+        <input type="hidden" name="ma_sanpham" id="ma_sanpham">
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../w3_band - Copy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "w3_band"
+	}
+}
