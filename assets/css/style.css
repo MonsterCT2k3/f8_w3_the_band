@@ -21,6 +21,11 @@ html{
 4.kieu dang(kieu chu, hinh tron, vuong...)
 
 */
+
+.clear{
+    clear: both;
+}
+
 #main{
     
 }
@@ -113,7 +118,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url("assets/img/slider/slider1.jpg") top center / cover no-repeat ;
+    background: url("/assets/img/slider/slider1.jpg") top center / cover no-repeat ;
 }
 
 #slider .text-content{
@@ -168,6 +173,24 @@ html{
     font-size: 15px;
     text-align: justify;
     line-height: 1.4;
+}
+#content .member-list{
+    margin-top: 48px;
+}
+
+#content .member-item{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+
+}
+#content .member-name{
+    font-size: 15px;
+}
+#content .member-img{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 
 #footer{
